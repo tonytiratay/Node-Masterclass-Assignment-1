@@ -14,4 +14,7 @@ Please create a simple "Hello World" API. Meaning:
 You can ping ```localhost:3000/hello``` and receive a json message saying "Hello Leslie".
 
 You can also customize the message by sending a name query, and receive a custom message.
-```localhost:3000/heloo?name="Tony'"```
+
+EX.
+
+```localhost:3000/hello?name="Tony'"```
