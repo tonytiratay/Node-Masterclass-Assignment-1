@@ -18,3 +18,8 @@ You can also customize the message by sending a name query, and receive a custom
 EX.
 
 ```localhost:3000/hello?name="Tony'"```
+
+You can also pass multiple queries in the url, they will be sent back to you in the json object.
+
+```localhost:3000/hello?name=Tony&title=amazing&other=New stuff```
+
